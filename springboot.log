@@ -1,0 +1,23 @@
+2017-06-29 17:56:02.864  INFO 5208 --- [main] com.zxg.thy.SpringThyApplication         : Starting SpringThyApplication on XZ-20170609HEZG with PID 5208 (F:\source\github\comzxgthy\target\classes started by Administrator in F:\source\github\comzxgthy)
+2017-06-29 17:56:02.867  INFO 5208 --- [main] com.zxg.thy.SpringThyApplication         : No active profile set, falling back to default profiles: default
+2017-06-29 17:56:02.946  INFO 5208 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@706a04ae: startup date [Thu Jun 29 17:56:02 CST 2017]; root of context hierarchy
+2017-06-29 17:56:04.376  INFO 5208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2017-06-29 17:56:04.382  INFO 5208 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-29 17:56:04.383  INFO 5208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-06-29 17:56:04.437  INFO 5208 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/zxgspring-boot]          : Initializing Spring embedded WebApplicationContext
+2017-06-29 17:56:04.437  INFO 5208 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1494 ms
+2017-06-29 17:56:04.515  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-29 17:56:04.518  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-29 17:56:04.518  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-29 17:56:04.518  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-29 17:56:04.518  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-29 17:56:04.695  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@706a04ae: startup date [Thu Jun 29 17:56:02 CST 2017]; root of context hierarchy
+2017-06-29 17:56:04.730  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addd/abc]}" onto public java.lang.String com.zxg.thy.SpringThyApplication.getDemo()
+2017-06-29 17:56:04.733  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-29 17:56:04.733  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-29 17:56:04.751  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-29 17:56:04.751  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-29 17:56:04.774  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-29 17:56:04.857  INFO 5208 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-29 17:56:04.890  INFO 5208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2017-06-29 17:56:04.893  INFO 5208 --- [main] com.zxg.thy.SpringThyApplication         : Started SpringThyApplication in 2.305 seconds (JVM running for 2.711)
