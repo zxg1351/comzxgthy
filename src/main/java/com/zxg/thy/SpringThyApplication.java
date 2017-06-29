@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Created by Administrator on 2017/6/29.
  */
-@RequestMapping(value = "/addd")
 @SpringBootApplication
 public class SpringThyApplication implements EmbeddedServletContainerCustomizer{
 
