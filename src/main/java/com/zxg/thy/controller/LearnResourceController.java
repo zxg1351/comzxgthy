@@ -44,4 +44,11 @@ public class LearnResourceController {
         return modelAndView;
 
     }
+
+//    @RequestMapping(value = "/login.html")
+//    public ModelAndView index1(){
+//        ModelAndView modelAndView = new ModelAndView("login");
+//
+//        return modelAndView;
+//    }
 }
